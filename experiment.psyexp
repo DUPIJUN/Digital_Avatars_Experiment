@@ -1,0 +1,1012 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.2.3">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'gender': '002'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="False" valType="bool" updates="None" name="Save log file"/>
+    <Param val="False" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="pix" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(3072, 1920)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="cover" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$(-0.4432, -0.4432, -0.4432)" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="main" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="error" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial_stim">
+      <RoutineSettingsComponent name="trial_stim" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial_stim" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="Pre_fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="Pre_fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(100, 100)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <MovieComponent name="target_video" plugin="None">
+        <Param val="True" valType="bool" updates="None" name="No audio"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="opencv" valType="str" updates="None" name="backend"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="None" name="loop"/>
+        <Param val="$ORIGINAL_PATH" valType="file" updates="set every repeat" name="movie"/>
+        <Param val="target_video" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.6, 1.0)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="None" name="volume"/>
+      </MovieComponent>
+      <TextComponent name="pain_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="60" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="pain_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-150, 350)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$target_video.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="请评价您感知的疼痛强度" valType="str" updates="constant" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="help_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="60" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="help_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-150, -150)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$target_video.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="您愿意提供多少程度的帮助" valType="str" updates="constant" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="help_slider" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="$(1.0000, 1.0000, 1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="SimHei" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;不帮助&quot;, &quot;最大帮助&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="50" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="help_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -250)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1000, 50)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$target_video.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="[]" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="slider" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(0, 100)" valType="list" updates="constant" name="ticks"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+      <SliderComponent name="pain_slider" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="$(1.0000, 1.0000, 1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="SimHei" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;无痛&quot;, &quot;极大痛苦&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="50" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="pain_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 250)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1000, 50)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$target_video.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="[]" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="slider" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(0, 100)" valType="list" updates="constant" name="ticks"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="mouse = new psychoJS.eventManager.Mouse({&quot;visible&quot;: true, &quot;win&quot;: psychoJS.window});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="mouse = event.Mouse(visible=True, win=win)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# --- 1. 逻辑跳转 ---&amp;#10;keys = event.getKeys(keyList=['space'])&amp;#10;if 'space' in keys and t &gt;= 3.0:&amp;#10;    # 获取评分&amp;#10;    r1 = pain_slider.getRating()&amp;#10;    r2 = help_slider.getRating()&amp;#10;    &amp;#10;    if r1 is not None and r2 is not None:&amp;#10;        continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys({&quot;keyList&quot;: [&quot;space&quot;]});&amp;#10;if ((_pj.in_es6(&quot;space&quot;, keys) &amp;&amp; (t &gt;= 3.0))) {&amp;#10;    r1 = pain_slider.getRating();&amp;#10;    r2 = help_slider.getRating();&amp;#10;    if (((r1 !== null) &amp;&amp; (r2 !== null))) {&amp;#10;        continueRoutine = false;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="score = help_slider.getRating();&amp;#10;if ((score !== null)) {&amp;#10;    if ((score &lt;= 32)) {&amp;#10;        next_vid = NODIFFERENCE_PATH;&amp;#10;    } else {&amp;#10;        if ((score &lt;= 65)) {&amp;#10;            next_vid = MODERATE_PATH;&amp;#10;        } else {&amp;#10;            next_vid = RELIEF_PATH;&amp;#10;        }&amp;#10;    }&amp;#10;} else {&amp;#10;    next_vid = NODIFFERENCE_PATH;&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;feedback_video_used&quot;, next_vid);&amp;#10;target_video.stop();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# 1. 获取参与者在帮助意愿量表上的得分&amp;#10;# help_slider 是给量表起的名字&amp;#10;score = help_slider.getRating()&amp;#10;&amp;#10;# 2. 根据得分区间，从Excel的列中选择对应的路径&amp;#10;# 这些变量名（nodiff_path等）必须和 Excel 的表头完全一致 [cite: 31, 263]&amp;#10;if score is not None:&amp;#10;    if score &lt;= 32:&amp;#10;        next_vid = NODIFFERENCE_PATH&amp;#10;    elif score &lt;= 65:&amp;#10;        next_vid = MODERATE_PATH&amp;#10;    else:&amp;#10;        next_vid = RELIEF_PATH&amp;#10;else:&amp;#10;    # 防止极端情况（没有点就跳过），默认给个不缓解&amp;#10;    next_vid = NODIFFERENCE_PATH&amp;#10;&amp;#10;# 3. 把这个路径存入数据文件，方便以后分析 [cite: 491]&amp;#10;thisExp.addData('feedback_video_used', next_vid)&amp;#10;&amp;#10;# 每一轮结束都强制让播放器“归零”，释放内存&amp;#10;target_video.stop() &amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="trial_feedback">
+      <RoutineSettingsComponent name="trial_feedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial_feedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <MovieComponent name="feedback_player" plugin="None">
+        <Param val="True" valType="bool" updates="None" name="No audio"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="opencv" valType="str" updates="None" name="backend"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="None" name="loop"/>
+        <Param val="$next_vid" valType="file" updates="set every repeat" name="movie"/>
+        <Param val="feedback_player" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.6, 1.0)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="None" name="volume"/>
+      </MovieComponent>
+      <CodeComponent name="code_3" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if (((next_vid === &quot;&quot;) || (next_vid === null))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# 如果因为某种意外 next_vid 没有拿到底稿，直接跳过这个反馈环节，防止程序卡死&amp;#10;if next_vid == &quot;&quot; or next_vid is None:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="psychoJS.experiment.addData(&quot;final_feedback_video&quot;, next_vid);&amp;#10;feedback_player.status = PsychoJS.Status.FINISHED;&amp;#10;feedback_player.stop();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# 记录这一个试次最终呈现给受试者的反馈视频路径&amp;#10;thisExp.addData('final_feedback_video', next_vid)&amp;#10;# 彻底杀掉当前播放器进程，强迫它在下一轮重新开始，而不是在内存里堆积&amp;#10;feedback_player.status = FINISHED&amp;#10;feedback_player.stop()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="post_fixation">
+      <RoutineSettingsComponent name="post_fixation" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="post_fixation" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(100, 100)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="instr">
+      <RoutineSettingsComponent name="instr" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instr" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="50" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="实验说明&amp;#10;&amp;#10;欢迎参加本次实验&amp;#10;在接下来的任务中：&amp;#10;&amp;#10;1、您将看到一段人物表现出痛苦的视频&amp;#10;2、请评价您感知的疼痛程度&amp;#10;3、请决定您愿意提供多少帮助&amp;#10;&amp;#10;注意： 您的帮助意愿越高，可能需要等待的时间越长&amp;#10;但人物的痛苦也会得到更有效的缓解&amp;#10;接下来是练习部分，练习部分结束后会进入正式实验&amp;#10;&amp;#10;准备好后，请按 [空格键] 开始实验" valType="str" updates="constant" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="2000" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code_5" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# 1. 强制显示鼠标&amp;#10;win.mouseVisible = True &amp;#10;&amp;#10;#初始化target_video，防止视频读取问题&amp;#10;prac_movie = visual.MovieStim(win=win, name='prac_movie')&amp;#10;target_video = visual.MovieStim(win=win, name='target_video')&amp;#10;&amp;#10;# 强制声明变量名，防止报错&amp;#10;prac_feedback = visual.MovieStim(win=win, name='prac_feedback')&amp;#10;feedback_player = visual.MovieStim(win=win, name='feedback_player')&amp;#10;&amp;#10;# 2. 全局退出键 (q)&amp;#10;event.globalKeys.add(key='q', func=core.quit, name='shutdown')&amp;#10;&amp;#10;# 3. 初始化所有跨 Routine 变量，防止报错&amp;#10;wait_duration = 0&amp;#10;next_vid = &quot;&quot;&amp;#10;prac_next_vid = &quot;&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="psychoJS.window.mouseVisible = true;&amp;#10;prac_movie = new visual.MovieStim({&quot;win&quot;: psychoJS.window, &quot;name&quot;: &quot;prac_movie&quot;});&amp;#10;target_video = new visual.MovieStim({&quot;win&quot;: psychoJS.window, &quot;name&quot;: &quot;target_video&quot;});&amp;#10;prac_feedback = new visual.MovieStim({&quot;win&quot;: psychoJS.window, &quot;name&quot;: &quot;prac_feedback&quot;});&amp;#10;feedback_player = new visual.MovieStim({&quot;win&quot;: psychoJS.window, &quot;name&quot;: &quot;feedback_player&quot;});&amp;#10;psychoJS.eventManager.globalKeys.add({&quot;key&quot;: &quot;q&quot;, &quot;func&quot;: core.quit, &quot;name&quot;: &quot;shutdown&quot;});&amp;#10;wait_duration = 0;&amp;#10;next_vid = &quot;&quot;;&amp;#10;prac_next_vid = &quot;&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_5" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="waiting_period">
+      <RoutineSettingsComponent name="waiting_period" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="waiting_period" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_6" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="val = help_slider.getRating();&amp;#10;if ((val === null)) {&amp;#10;    val = 0;&amp;#10;}&amp;#10;wait_duration = ((val / 100.0) * 15);&amp;#10;wait_timer = new util.Clock();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# 拿到刚才的分数并转化为秒&amp;#10;val = help_slider.getRating()&amp;#10;if val is None: val = 0&amp;#10;wait_duration = (val / 100.0) * 15&amp;#10;wait_timer = core.Clock()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# 强行停留，直到时间走完&amp;#10;if wait_timer.getTime() &gt;= wait_duration:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((wait_timer.getTime() &gt;= wait_duration)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_6" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="70" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-250, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$u&quot;已接受到帮助，请您等待&quot;+ str(round(wait_duration, 1)) + u&quot;秒&quot;" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="pre_fixation">
+      <RoutineSettingsComponent name="pre_fixation" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="pre_fixation" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="text_routine">
+      <RoutineSettingsComponent name="text_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="text_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="60" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-150, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="练习阶段已结束, 接下来的任务将计入正式实验数据,&amp;#10;请保持专注&amp;#10;按下[空格键]开始正式实验" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="prac_stim">
+      <RoutineSettingsComponent name="prac_stim" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="prac_stim" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="prac_polygon" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="prac_polygon" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(100, 100)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <MovieComponent name="prac_movie" plugin="None">
+        <Param val="True" valType="bool" updates="None" name="No audio"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="opencv" valType="str" updates="None" name="backend"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="None" name="loop"/>
+        <Param val="$ORIGINAL_PATH" valType="file" updates="set every repeat" name="movie"/>
+        <Param val="prac_movie" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.6, 1.0)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="None" name="volume"/>
+      </MovieComponent>
+      <TextComponent name="prac_pain_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="60" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prac_pain_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-150, 350)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$prac_movie.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="请评价您感知的疼痛强度" valType="str" updates="constant" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="prac_help_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="60" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prac_help_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-150, -150)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$prac_movie.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="您愿意提供多少程度的帮助" valType="str" updates="constant" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="prac_help_slider" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="SimHei" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;不帮助&quot;, &quot;最大帮助&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="50" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prac_help_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -250)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1000, 50)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$prac_movie.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="[]" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="slider" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(0, 100)" valType="list" updates="constant" name="ticks"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+      <SliderComponent name="prac_pain_slider" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="SimHei" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;无痛&quot;, &quot;极大痛苦&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="50" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prac_pain_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 250)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1000, 50)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$prac_movie.status == FINISHED" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="[]" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="slider" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(0, 100)" valType="list" updates="constant" name="ticks"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+      <CodeComponent name="prac_stim_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="mouse = new psychoJS.eventManager.Mouse({&quot;visible&quot;: true, &quot;win&quot;: psychoJS.window});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="mouse = event.Mouse(visible=True, win=win)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# --- 1. 逻辑跳转 ---&amp;#10;keys = event.getKeys(keyList=['space'])&amp;#10;if 'space' in keys and t &gt;= 3.0:&amp;#10;    # 获取评分&amp;#10;    prac_r1 = prac_pain_slider.getRating()&amp;#10;    prac_r2 = prac_help_slider.getRating()&amp;#10;    &amp;#10;    if prac_r1 is not None and prac_r2 is not None:&amp;#10;        continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys({&quot;keyList&quot;: [&quot;space&quot;]});&amp;#10;if ((_pj.in_es6(&quot;space&quot;, keys) &amp;&amp; (t &gt;= 3.0))) {&amp;#10;    prac_r1 = prac_pain_slider.getRating();&amp;#10;    prac_r2 = prac_help_slider.getRating();&amp;#10;    if (((prac_r1 !== null) &amp;&amp; (prac_r2 !== null))) {&amp;#10;        continueRoutine = false;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="prac_score = prac_help_slider.getRating();&amp;#10;if ((prac_score !== null)) {&amp;#10;    if ((prac_score &lt;= 32)) {&amp;#10;        prac_next_vid = NODIFFERENCE_PATH;&amp;#10;    } else {&amp;#10;        if ((prac_score &lt;= 65)) {&amp;#10;            prac_next_vid = MODERATE_PATH;&amp;#10;        } else {&amp;#10;            prac_next_vid = RELIEF_PATH;&amp;#10;        }&amp;#10;    }&amp;#10;} else {&amp;#10;    prac_next_vid = NODIFFERENCE_PATH;&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;prac_feedback_video_used&quot;, prac_next_vid);&amp;#10;prac_movie.stop();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# 1. 获取参与者在帮助意愿量表上的得分&amp;#10;# help_slider 是给量表起的名字&amp;#10;prac_score = prac_help_slider.getRating()&amp;#10;&amp;#10;# 2. 根据得分区间，从Excel的列中选择对应的路径&amp;#10;# 这些变量名（nodiff_path等）必须和 Excel 的表头完全一致&amp;#10;if prac_score is not None:&amp;#10;    if prac_score &lt;= 32:&amp;#10;        prac_next_vid = NODIFFERENCE_PATH&amp;#10;    elif prac_score &lt;= 65:&amp;#10;        prac_next_vid = MODERATE_PATH&amp;#10;    else:&amp;#10;        prac_next_vid = RELIEF_PATH&amp;#10;else:&amp;#10;    # 防止极端情况（没有点击就跳过了），默认给个不缓解&amp;#10;    prac_next_vid = NODIFFERENCE_PATH&amp;#10;&amp;#10;# 3. 把这个路径存入数据文件，方便以后进行分析&amp;#10;thisExp.addData('prac_feedback_video_used', prac_next_vid)&amp;#10;&amp;#10;# 每一轮结束都强制让播放器“归零”，释放内存&amp;#10;prac_movie.stop() &amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="prac_stim_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="prac_waiting">
+      <RoutineSettingsComponent name="prac_waiting" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="prac_waiting" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="prac_waiting_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="prac_val = prac_help_slider.getRating();&amp;#10;if ((prac_val === null)) {&amp;#10;    prac_val = 0;&amp;#10;}&amp;#10;prac_wait_duration = ((prac_val / 100.0) * 15);&amp;#10;prac_wait_timer = new util.Clock();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# 拿到刚才的分数并转化为秒&amp;#10;prac_val = prac_help_slider.getRating()&amp;#10;if prac_val is None: prac_val = 0&amp;#10;prac_wait_duration = (prac_val / 100.0) * 15&amp;#10;prac_wait_timer = core.Clock()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# 强行停留，直到时间走完&amp;#10;if prac_wait_timer.getTime() &gt;= wait_duration:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((prac_wait_timer.getTime() &gt;= wait_duration)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="prac_waiting_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="prac_waiting_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="70" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prac_waiting_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-250, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$u&quot;已接受到帮助，请您等待&quot;+ str(round(wait_duration, 1)) + u&quot;秒&quot;" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="prac_trial_feedback">
+      <RoutineSettingsComponent name="prac_trial_feedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="prac_trial_feedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <MovieComponent name="prac_feedback" plugin="None">
+        <Param val="True" valType="bool" updates="None" name="No audio"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="opencv" valType="str" updates="None" name="backend"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="None" name="loop"/>
+        <Param val="$prac_next_vid" valType="file" updates="set every repeat" name="movie"/>
+        <Param val="prac_feedback" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.6, 1.0)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="None" name="volume"/>
+      </MovieComponent>
+      <CodeComponent name="prac_feedback_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if (((prac_next_vid === &quot;&quot;) || (prac_next_vid === null))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# 如果因为某种意外 next_vid 没有拿到底稿，直接跳过这个反馈环节，防止程序卡死&amp;#10;if prac_next_vid == &quot;&quot; or prac_next_vid is None:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="psychoJS.experiment.addData(&quot;prac_final_feedback_video&quot;, prac_next_vid);&amp;#10;prac_feedback.status = PsychoJS.Status.FINISHED;&amp;#10;prac_feedback.stop();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# 记录这一个试次最终呈现给受试者的反馈视频路径&amp;#10;thisExp.addData('prac_final_feedback_video', prac_next_vid)&amp;#10;# 彻底杀掉当前播放器进程，强迫它在下一轮重新开始，而不是在内存里堆积&amp;#10;prac_feedback.status = FINISHED&amp;#10;prac_feedback.stop()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="prac_feedback_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_F_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_F_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_F_L_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_F_L_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'LOW'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_F_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_F_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_F_N_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_F_N_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_M_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_M_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_M_H_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_M_H_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'HIGH'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_M_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_M_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_M_L_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_M_L_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'LOW'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="practice_conditions.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="prac_stim"/>
+    <Routine name="prac_waiting"/>
+    <Routine name="prac_trial_feedback"/>
+    <LoopTerminator name="practice_loop"/>
+    <Routine name="text_routine"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'组别': 1, 'ORIGINAL_PATH': 'videos\\1_O_M_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_O_M_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_O_M_H_MOD.mp4', 'RELIEF_PATH': 'videos\\1_O_M_H_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'HIGH'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_O_M_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_O_M_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_O_M_L_MOD.mp4', 'RELIEF_PATH': 'videos\\1_O_M_L_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'LOW'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_O_M_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_O_M_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_O_M_N_MOD.mp4', 'RELIEF_PATH': 'videos\\1_O_M_N_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_O_F_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_O_F_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_O_F_H_MOD.mp4', 'RELIEF_PATH': 'videos\\1_O_F_H_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'HIGH'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_O_F_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_O_F_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_O_F_L_MOD.mp4', 'RELIEF_PATH': 'videos\\1_O_F_L_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'LOW'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_O_F_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_O_F_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_O_F_N_MOD.mp4', 'RELIEF_PATH': 'videos\\1_O_F_N_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_M_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_M_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_M_H_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_M_H_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'HIGH'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_M_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_M_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_M_L_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_M_L_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'LOW'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_M_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_M_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_M_N_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_M_N_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_F_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_F_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_F_H_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_F_H_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'HIGH'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_F_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_F_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_F_L_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_F_L_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'LOW'}, {'组别': 1, 'ORIGINAL_PATH': 'videos\\1_Y_F_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\1_Y_F_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\1_Y_F_N_MOD.mp4', 'RELIEF_PATH': 'videos\\1_Y_F_N_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_M_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_M_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_M_H_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_M_H_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'HIGH'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_M_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_M_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_M_L_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_M_L_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'LOW'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_M_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_M_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_M_N_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_M_N_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_F_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_F_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_F_H_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_F_H_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'HIGH'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_F_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_F_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_F_L_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_F_L_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'LOW'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_O_F_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_O_F_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_O_F_N_MOD.mp4', 'RELIEF_PATH': 'videos\\2_O_F_N_REL.mp4', 'AVATAR_AGE': 'OLD', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_Y_M_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_Y_M_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_Y_M_H_MOD.mp4', 'RELIEF_PATH': 'videos\\2_Y_M_H_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'HIGH'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_Y_M_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_Y_M_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_Y_M_L_MOD.mp4', 'RELIEF_PATH': 'videos\\2_Y_M_L_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'LOW'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_Y_M_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_Y_M_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_Y_M_N_MOD.mp4', 'RELIEF_PATH': 'videos\\2_Y_M_N_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'MALE', 'INTENSITY': 'NEUTRAL'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_Y_F_H_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_Y_F_H_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_Y_F_H_MOD.mp4', 'RELIEF_PATH': 'videos\\2_Y_F_H_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'HIGH'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_Y_F_L_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_Y_F_L_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_Y_F_L_MOD.mp4', 'RELIEF_PATH': 'videos\\2_Y_F_L_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'LOW'}, {'组别': 2, 'ORIGINAL_PATH': 'videos\\2_Y_F_N_ORIG.mp4', 'NODIFFERENCE_PATH': 'videos\\2_Y_F_N_NODIFF.mp4', 'MODERATE_PATH': 'videos\\2_Y_F_N_MOD.mp4', 'RELIEF_PATH': 'videos\\2_Y_F_N_REL.mp4', 'AVATAR_AGE': 'YOUNG', 'AVATAR_SEX': 'FEMALE', 'INTENSITY': 'NEUTRAL'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_stim"/>
+    <Routine name="waiting_period"/>
+    <Routine name="trial_feedback"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
